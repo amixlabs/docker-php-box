@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/amixsi/docker-php-box.svg?branch=master)](https://travis-ci.org/amixsi/docker-php-box)
+
 # About this Repo
 
 This is the Git repo of the official Docker image for [amixsi/php-box](https://hub.docker.com/r/amixsi/php-box/).
