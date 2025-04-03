@@ -7,18 +7,13 @@ See the Hub page for the full readme on how to use the Docker image and for info
 
 Common build usage:
 
-```bash
-docker build \
-  --build-arg "http_proxy" \
-  --build-arg "https_proxy" \
-  --build-arg "no_proxy" \
-  -t amixsi/php-box:latest \
-  .
+```sh
+docker build -t amixsi/php-box:latest .
 ```
 
 Publish
 
-```bash
+```sh
 docker login
-docker push amixsi/centos
+docker push amixsi/php-box
 ```
